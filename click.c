@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<ctype.h>
 #include<stdlib.h>
-void main(){
+
+int main(){
 	// variables 
 	char user_o;
 // NOw show the menu for the pkg to be installed 
@@ -33,7 +34,7 @@ system("pkg install python3 -y");
 system("pkg install python2 -y");
 system("pkg install nodejs-lts -y");
 system("pkg install golang -y");
-system("pkg install rustc -y");
+system("pkg install rust -y");
 system("pkg install php -y ");
 system("pkg install proot -y");
 system("pkg install cowsay -y");
@@ -54,5 +55,5 @@ else{
 	exit(1);
 }
 
-
+return 0;
 }
